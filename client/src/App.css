@@ -1,0 +1,220 @@
+.landing{
+    text-align: center;
+    display: grid;
+    
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    height: 20%;
+    top: 40%;
+    gap: 1rem;
+
+}
+
+
+
+
+.session-btn{
+    width: 45%;
+    margin: 0 auto;
+    
+    
+    
+}
+
+
+
+.session-page{
+    text-align: center;
+    
+    
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    
+}
+
+.waiting-lobby{
+    text-align: center;
+    top: 45%;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.game{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.board-container{
+    position: absolute;
+    top: 4.5vw;
+    height: 60%;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.stats-container{
+    position: absolute;
+    top: 60%;
+    height: 40%;
+    width: 100%;
+    padding-left: 4.5vw;
+    padding-right: 4.5vw;
+    padding-bottom: 4.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.turn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.stats{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    height: 100%;
+    
+}
+
+
+.board {
+    
+    width: 91vw;
+    height: 91vw;
+    
+    margin: 0 auto;
+    background-color:black;
+    color: black;
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+    
+    border:0.5vw solid black;
+    
+    justify-self: center;
+    
+    
+}
+
+
+
+.square-inner{
+    color: black;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 15vw;
+    border:0.5vw solid rgb(0, 0, 0);
+    
+    transition: 0.3s;
+    height:30vw;
+    width: 30vw;
+
+}
+
+
+
+.square-inner:active{
+    font-size: 13vw;
+    align-items: center;
+}
+
+div {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@media (orientation: landscape){
+    
+    .board-container{
+        
+        position: absolute;
+        text-align: center;
+        height: 100%;
+        width: 60%;
+        padding-left: 4.5vh;
+        padding-bottom: 4.5vh;
+        padding-top: 4.5vh;
+        top: 0vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+        
+    .board {
+        
+        width: 91vh;
+        height: 91vh;
+        
+        margin: 0 auto;
+        background-color:black;
+        color: black;
+        display: grid;
+        grid-template: repeat(3,1fr)/repeat(3,1fr);
+        
+        border:0.5vh solid black;
+        
+        justify-self: center;
+        
+        
+    }
+
+
+
+    .square-inner{
+        color: black;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        font-size: 15vh;
+        border:0.5vh solid rgb(0, 0, 0);
+        
+        transition: 0.3s;
+        height:30vh;
+        width: 30vh;
+
+    }
+    .square-inner:active{
+        font-size: 13vh;
+        align-items: center;
+    }
+
+    .stats-container{
+        position: absolute;
+        left: 60%;
+        height: 100%;
+        width: 40%;
+        top: 0%;
+        padding-top: 4.5vh;
+        padding-right: 4.5vh;
+        padding-bottom: 4.5vh;
+        padding-left: 0vh;
+        
+    }
+    .session-btn{
+        width: 35%;
+        
+        
+        
+        
+    }
+}
