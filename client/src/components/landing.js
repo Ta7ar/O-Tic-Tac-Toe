@@ -1,5 +1,5 @@
 import React, { Component, useState } from 'react';
-import {Button, Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
+import {Button, Modal, ModalHeader, ModalBody, ModalFooter, NavLink, Nav} from 'reactstrap';
 import CreateSession from './createSession';
 import JoinSession from './joinSession';
 import {Link,Route,Switch} from 'react-router-dom';
@@ -38,7 +38,9 @@ const Landing = props => {
                         <JoinSession/>
                     </ModalBody>
                 </Modal>
-            
+                
+                <NavLink href="https://github.com/Ta7ar"><Button>Github</Button></NavLink>
+                
             
         </motion.div>
         </AnimatePresence>

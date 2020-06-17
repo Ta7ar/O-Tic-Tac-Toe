@@ -53,7 +53,7 @@
 
 .board-container{
     position: absolute;
-    top: 4.5vw;
+    
     height: 60%;
     text-align: center;
     margin: 0 auto;
@@ -94,8 +94,8 @@
 
 .board {
     
-    width: 91vw;
-    height: 91vw;
+    width: 73vw;
+    height: 73vw;
     
     margin: 0 auto;
     background-color:black;
@@ -118,19 +118,19 @@
     align-items: center;
     justify-content: center;
     display: flex;
-    font-size: 15vw;
+    font-size: 13vw;
     border:0.5vw solid rgb(0, 0, 0);
     
     transition: 0.3s;
-    height:30vw;
-    width: 30vw;
+    height:24vw;
+    width: 24vw;
 
 }
 
 
 
 .square-inner:active{
-    font-size: 13vw;
+    font-size: 11vw;
     align-items: center;
 }
 
@@ -161,8 +161,8 @@ div {
         
     .board {
         
-        width: 91vh;
-        height: 91vh;
+        width: 73vh;
+        height: 73vh;
         
         margin: 0 auto;
         background-color:black;
@@ -185,16 +185,16 @@ div {
         align-items: center;
         justify-content: center;
         display: flex;
-        font-size: 15vh;
+        font-size: 13vh;
         border:0.5vh solid rgb(0, 0, 0);
         
         transition: 0.3s;
-        height:30vh;
-        width: 30vh;
+        height:24vh;
+        width: 24vh;
 
     }
     .square-inner:active{
-        font-size: 13vh;
+        font-size: 11vh;
         align-items: center;
     }
 
@@ -211,7 +211,7 @@ div {
         
     }
     .session-btn{
-        width: 35%;
+        width: 30%;
         
         
         
