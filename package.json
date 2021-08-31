@@ -8,7 +8,6 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    
     "start": "node server.js"
   },
   "author": "Imon Kallyan Tatar",

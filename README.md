@@ -7,3 +7,17 @@
  with the client side via Socket.IO websockets.
  
   Deployed at: https://o-tic-tac-toe.herokuapp.com/
+
+
+## Installation
+
+```bash
+  npm install
+  
+  cd client
+  npm install
+  
+  cd ..
+  npm run dev
+```
+    
