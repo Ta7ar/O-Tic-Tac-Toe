@@ -132,3 +132,4 @@ if(process.env.NODE_ENV === 'production'){
 }
 
 server.listen(port);
+console.log(port);
